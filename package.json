@@ -1,7 +1,7 @@
 {
   "name": "arjun-bollam",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "Arjun Bollam",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

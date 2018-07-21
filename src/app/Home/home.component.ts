@@ -21,3 +21,4 @@ export class HomeComponent implements OnInit {
         this.summary = 'I am an IT Professional currently living in Camphill, Pennsylvannia.';
     }
 }
+

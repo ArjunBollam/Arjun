@@ -2,7 +2,7 @@
    margin: auto;
 }
 h1 {
-    color: black;
+    color: rgb(0, 162, 255);
     text-align: center
 }
 p{
@@ -24,21 +24,18 @@ p{
 .fa-facebook {
     background: #3B5998;
     color: white;
-    -webkit-filter: grayscale(100%);
-    filter:grayscale(100%);
+    border-radius: 2px;
 }
 
 .fa-linkedin {
     background: #007bb5;
     color: white;
-    -webkit-filter: grayscale(100%);
-    filter:grayscale(100%);
+    border-radius: 2px;
 }
 .fa-google {
     background: red;
     color: white;
-    -webkit-filter: grayscale(100%);
-    filter:grayscale(100%);
+    border-radius: 2px;
 }
 
 @keyframes bounceIn{
@@ -105,13 +102,14 @@ p{
     100% {-webkit-transform: rotate(360deg);}
 }
 #externurls{
-   width:86px;
-   position: relative;
-   left: 450px;
-   /* border: 1px solid black; */
+   width:100px;
+   /* position: relative;
+   left: 40%;
+   border: 1px solid black; */
+   margin: auto;
    padding-left: 2px;
    margin: 1px;
-   overflow: scroll;
+   overflow: hidden;
 }
 
 a {
@@ -147,19 +145,19 @@ a {
 }
 
 #Venn {
+    width:200px;
     align-items: center;
     position: relative;
     margin: auto;
     display: block;
     top:30px;
-    left : 400px;
 }
 
 #creative {
-    background-color: black;
+    background-color: orange;
     width: 100px;
     height: 100px;
-    border:1px solid white;
+    border:1px solid black;
     border-radius: 50px;
     align-content: center;
     margin: auto;
@@ -169,10 +167,10 @@ a {
     animation: cr  ease-in-out 5s forwards;
 }
 #random {
-    background-color: black;
+    background-color: orange;
     width: 100px;
     height: 100px;
-    border:1px solid white;
+    border:1px solid black;
     border-radius: 50px;
     align-content: center;
     margin: auto;
@@ -184,10 +182,10 @@ a {
 
 
 #diggingdeeper {
-    background-color: black;
+    background-color: orange;
     width: 100px;
     height: 100px;
-    border:1px solid white;
+    border:1px solid black;
     border-radius: 50px;
     align-content: center;
     margin: auto;
