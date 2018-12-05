@@ -1,7 +1,7 @@
 import { PageService } from './page.service';
 import { Component } from '@angular/core';
 import { OnChanges, OnInit } from '@angular/core/src/metadata/lifecycle_hooks';
-import { Subscription } from 'rxjs/Subscription';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-root',
